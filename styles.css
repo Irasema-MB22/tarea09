@@ -1,0 +1,48 @@
+.contenedor,
+.titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contenedor {
+    display: flex;
+}
+
+.titulo h1 {
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.añadirbotones {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#btnAction {
+    background-color: black;
+    color: white;
+}
+
+button {
+    background-color: blue;
+    padding: 10px;
+    color: white;
+    width: 200px;
+    margin-top: 10px;
+    font-size: 20px;
+    border: none;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    cursor: pointer;
+    margin: 4px;
+}
+
+p {
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
